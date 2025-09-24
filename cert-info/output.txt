@@ -1,1 +1,7 @@
-
+Enter hostname (e.g. google.com): === Certificate Details ===
+Subject: ((('commonName', '*.google.com'),),)
+Issuer: ((('countryName', 'US'),), (('organizationName', 'Google Trust Services'),), (('commonName', 'WR2'),))
+Expiry: Dec  1 08:34:52 2025 GMT
+SANs: ( ... long list ... )
+Cipher: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+Days until expiry: 67
