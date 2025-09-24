@@ -1,16 +1,36 @@
-## Hi there 👋
+# 👋 Hi, I'm Hamza Shah  
 
-<!--
-**Hamzisha2002/Hamzisha2002** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile! 🚀  
+I'm currently learning **DevOps, Networking, and Automation** and using GitHub to track my progress.  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🌱 What I'm Learning
+- Git & GitHub (version control, pull requests, branching)
+- DevOps basics with Azure DevOps
+- Networking (hosts file, firewall, certificates, Mininet)
+- Python scripting (certificate checker, Shodan API)
+
+---
+
+## 💻 Tools & Skills
+- **Languages**: Python, Bash, SQL  
+- **Tools**: Git, GitHub, Azure DevOps, Mininet, VS Code  
+- **Platforms**: Windows, Linux  
+
+---
+
+## 📌 Current Projects
+- 🔐 Certificate details fetching script (Python)  
+- 🌐 Shodan API integration demo  
+- 🖧 Mininet virtual networks  
+
+---
+
+## 📫 Connect With Me
+- GitHub: [@Hamzisha2002](https://github.com/Hamzisha2002)  
+- Email: hmziiisha@gmail.com  
+
+---
+
+⭐ **Tip:** I’ll keep updating this profile as I complete my DevOps & Networking labs. Stay tuned!
