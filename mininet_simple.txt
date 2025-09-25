@@ -1,1 +1,51 @@
-mininet> nodes available nodes are: h1 h2 h3 s1 mininet> net h1 h1-eth0:s1-eth1 h2 h2-eth0:s1-eth2 h3 h3-eth0:s1-eth3 s1 lo: s1-eth1:h1-eth0 s1-eth2:h2-eth0 s1-eth3:h3-eth0 mininet> pingall *** Ping: testing ping reachability h1 -> h2 h3 h2 -> h1 h3 h3 -> h1 h2 *** Results: 0% dropped (6/6 received) mininet> exit *** Stopping 0 controllers *** Stopping 3 links ... *** Stopping 1 switches s1 *** Stopping 3 hosts h1 h2 h3 *** Done completed in 94.176 seconds
+Script started on 2025-09-25 17:29:41+05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;hamzii@DESKTOP-QQA16ID: ~/mininet_assignment[01;32mhamzii@DESKTOP-QQA16ID[00m:[01;34m~/mininet_assignment[00m$ sudo mn --topo single,3 --mac
+[?2004l[sudo] password for hamzii: 
+/usr/local/bin/mn:4: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  __import__('pkg_resources').run_script('mininet==2.3.1b4', 'mn')
+*** No default OpenFlow controller found for default switch!
+*** Falling back to OVS Bridge
+*** Creating network
+*** Adding controller
+*** Adding hosts:
+h1 h2 h3 
+*** Adding switches:
+s1 
+*** Adding links:
+(h1, s1) (h2, s1) (h3, s1) 
+*** Configuring hosts
+h1 h2 h3 
+*** Starting controller
+
+*** Starting 1 switches
+s1 ...
+*** Starting CLI:
+mininet> nodes
+available nodes are: 
+h1 h2 h3 s1
+mininet> net
+h1 h1-eth0:s1-eth1
+h2 h2-eth0:s1-eth2
+h3 h3-eth0:s1-eth3
+s1 lo:  s1-eth1:h1-eth0 s1-eth2:h2-eth0 s1-eth3:h3-eth0
+mininet> pingall
+*** Ping: testing ping reachability
+h1 -> h2 h3 
+h2 -> h1 h3 
+h3 -> h1 h2 
+*** Results: 0% dropped (6/6 received)
+mininet> exit
+*** Stopping 0 controllers
+
+*** Stopping 3 links
+...
+*** Stopping 1 switches
+s1 
+*** Stopping 3 hosts
+h1 h2 h3 
+*** Done
+completed in 14.193 seconds
+[?2004h]0;hamzii@DESKTOP-QQA16ID: ~/mininet_assignment[01;32mhamzii@DESKTOP-QQA16ID[00m:[01;34m~/mininet_assignment[00m$ exit
+[?2004lexit
+
+Script done on 2025-09-25 17:30:12+05:00 [COMMAND_EXIT_CODE="0"]
