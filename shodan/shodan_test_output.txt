@@ -1,0 +1,4 @@
+API key present?: True
+Account info fetched OK:
+  Plan: oss
+  Credits: None

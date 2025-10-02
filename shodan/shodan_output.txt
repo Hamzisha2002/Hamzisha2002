@@ -1,1 +1,2 @@
-C:\Users\DC\AppData\Local\Programs\Python\Python313\python.exe: can't open file 'C:\\Users\\DC\\Hamzisha2002\\shodan_fetch.py': [Errno 2] No such file or directory
+ERROR: SHODAN_API_KEY environment variable not set.
+In Git Bash run: export SHODAN_API_KEY=your_key_here
