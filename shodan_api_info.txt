@@ -1,1 +1,0 @@
-{"scan_credits": 0, "usage_limits": {"scan_credits": 0, "query_credits": 0, "monitored_ips": 0}, "plan": "oss", "https": false, "unlocked": false, "query_credits": 0, "monitored_ips": 0, "unlocked_left": 0, "telnet": false}
